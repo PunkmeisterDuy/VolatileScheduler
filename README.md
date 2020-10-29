@@ -8,9 +8,10 @@ Allows for someone to create a schedule with tasks where they can organize by th
 
 ## Libraries
 - tkinter
+- py_cui
 
 ## To Do
-1. Create Tui
-2. Create Gui
-3. Create Apps Using React Native
+1. Create Tui (py_cui)
+2. Create Gui (tkinter)
+3. Create Apps Using Kivy
 4. Sync Applications With Multiple Platforms

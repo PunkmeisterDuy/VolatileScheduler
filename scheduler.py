@@ -30,13 +30,4 @@ class Schedule:
             volatileSchedule.tasks[i].importance = volatileSchedule.tasks[i].importance + (random.randint(0,100) * .01)
         return volatileSchedule
 
-schedule = Schedule()
-
-
-schedule.ask_task()
-print(schedule.tasks[0].name)
-print(schedule.tasks[0].importance)
-dailySchedule = schedule.volatile_randomizer()
-print(dailySchedule.tasks[0].importance)
-
 #FIX THE ""
