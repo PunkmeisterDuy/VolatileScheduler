@@ -1,7 +1,7 @@
 # VolatileScheduler
 
-##Resources
+## Resources
 - Python
 
-##Libraries
+## Libraries
 - tkinter
