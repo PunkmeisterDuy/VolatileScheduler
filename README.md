@@ -8,3 +8,9 @@ Allows for someone to create a schedule with tasks where they can organize by th
 
 ## Libraries
 - tkinter
+
+## To Do
+1. Create Tui
+2. Create Gui
+3. Create Apps Using React Native
+4. Sync Applications With Multiple Platforms
