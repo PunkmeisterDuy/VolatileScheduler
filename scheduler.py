@@ -24,10 +24,11 @@ class Schedule:
     
     def volatile_randomizer(self):
         volatileSchedule = Schedule()
+
         for i in range(len(self.tasks)):
             volatileSchedule.tasks.append(self.tasks[i])
+
         for i in range(len(volatileSchedule.tasks)):
             volatileSchedule.tasks[i].importance = volatileSchedule.tasks[i].importance + (random.randint(0,100) * .01)
         return volatileSchedule
 
-#FIX THE ""

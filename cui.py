@@ -6,10 +6,7 @@ schedule = scheduler.Schedule()
 
 
 schedule.ask_task()
-print(schedule.tasks[0].name)
-print(schedule.tasks[0].importance)
 dailySchedule = schedule.volatile_randomizer()
-print(dailySchedule.tasks[0].importance)
 
 # create the CUI object. Will have a 3 by 3 grid with indexes from 0,0 to 2,2
 
@@ -21,7 +18,8 @@ root.add_label("Schedule: ", 0, 0)
 
 for i in range(len(dailySchedule.tasks)):
     root.add_label(dailySchedule.tasks[i].name, i+1, 0)
-    root.add_label(dailySchedule.tasks[0].importance, 0, 1)
+    root.add_label(str(dailySchedule.tasks[i].importance), i+1, 1)
+    root.add_label(str(i),i+1,2)
 
 # Start/Render the CUI
 root.start()
