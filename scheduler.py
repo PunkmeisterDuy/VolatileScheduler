@@ -29,6 +29,6 @@ class Schedule:
             volatileSchedule.tasks.append(self.tasks[i])
 
         for i in range(len(volatileSchedule.tasks)):
-            volatileSchedule.tasks[i].importance = volatileSchedule.tasks[i].importance + (random.randint(0,100) * .01)
+            volatileSchedule.tasks[i].importance = volatileSchedule.tasks[i].importance + (random.randint(0,100) * .001)
         return volatileSchedule
 
